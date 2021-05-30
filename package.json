@@ -1,0 +1,29 @@
+{
+  "name": "rightmove-scraper",
+  "version": "1.0.0",
+  "description": "Rightmove scraper",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "yarn run eslint '**/*.js'",
+    "lint-fix": "yarn run eslint '**/*.js' --fix",
+    "test": "yarn run mocha ./tests --recursive"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "cheerio": "^1.0.0-rc.5",
+    "console-stamp": "^0.2.9",
+    "dotenv": "^8.2.0",
+    "fast-array-diff": "^1.0.0",
+    "node-fetch": "^2.6.1",
+    "pushover-notifications": "^1.2.2",
+    "sync-request": "^6.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "mocha": "^8.3.0"
+  }
+}

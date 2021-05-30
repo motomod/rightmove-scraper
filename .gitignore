@@ -1,0 +1,4 @@
+node_modules/
+storage/*
+yarn-error.log
+exception.log
